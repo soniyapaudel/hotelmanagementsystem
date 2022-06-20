@@ -1,0 +1,89 @@
+﻿body {
+    font-family :"chilanka",cursive;
+    padding:0;
+    margin:0;
+}
+.main-header h1{
+    font-family :'sansita swashed',cursive;
+    margin:0;
+    padding:14px;
+    cursor: pointer ;
+}
+.main-header {
+    background-image:url("../js/bedroom.jpg") ;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+    height: 100vh;
+}
+
+.main-header img{
+    width: 1000px;
+}
+
+.main-header h2{
+    text-align:center;
+    position: relative;
+    top:30%;
+    color:black;
+    cursor:pointer;
+
+}
+.main-header h2 span{
+    background-color:#ffffff;
+    padding:10px;
+    color:white;
+}
+.main-header{
+    display:flex;
+    justify-content :space-around ;
+
+}
+.navigation ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+.navigation ul li{
+    list-style :none;
+    margin-left:20px;
+    padding:10px;
+
+}
+
+.navigation ul li{
+    text-decoration:none;
+    color:black;
+
+}
+.navigation ul li a:hover{
+    background-color:white;
+    padding:10px;
+}
+/*end of navigation here*/
+
+/* start here services*/
+
+h2{
+    text-align: center;
+}
+
+.service .main-service{
+    display: flex;
+    justify-content :center;
+}
+.service .service-box{
+    background-color:#808080;
+    margin-top :8px;
+    text-align: center;
+    width:   200px;
+    padding:30px 10px 0;
+}
+.gallery.img{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    padding: 40px;
+}
+
+
+
